@@ -159,10 +159,10 @@ button:hover {
 		transition: all 0.3s ease 0s;
 	}
 
-	/* S E C T I O N */
+	/* S E C T I O N _ 1*/
 
 	.section_1 {
-		padding: 20px;
+		padding: 20px 0px 50px 0px;
 	}
 
 	.section_1 h1, h3, h5, h6 {
@@ -187,5 +187,46 @@ button:hover {
 
 	.section_1 h6 {
 		font-size: 9px;
+	}
+
+	/* S E C T I O N _ 2*/
+
+	.section_2 {
+	list-style: none;
+	padding: 10px;
+	border-bottom: dotted;
+	}
+
+	.section_2 h5 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	font-size: 10px;
+	padding: 50px 0px 0px 0px;
+	color: #edf0f1;
+	text-decoration: none;
+	text-align: center;
+	}
+
+	.brands {
+	padding: 50px 0px 50px 60px;
+
+	}
+	.ngobryls {
+	height: 40px;
+  	width: 40px;
+	}
+
+	.morfem {
+	height: 35px;
+	width: 100px;
+	}
+
+	.jimijazz {
+	height: 50px;
+	}
+	.brands li {
+	display: inline-block;
+	text-align: center;
+	padding: 0px 100px 0px 10px;
 	}
 }
