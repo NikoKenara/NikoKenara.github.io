@@ -22,12 +22,14 @@ header {
 	padding: 30px 10%;
 }
 
-img {
+header img {
 	height: 70px;
   	width: 70px;
   	cursor: pointer;
   	border-radius: 50px;
 }
+
+/* N A V I G A T I O N */
 
 .nav_link {
 	list-style: none;
@@ -35,7 +37,7 @@ img {
 
 .nav_link li {
 	display: inline-block;
-	padding: 0px 20px;
+	padding: 0px 20px 0px 50px;
 }
 
 .nav_link li a {
@@ -60,8 +62,11 @@ button:hover {
 	background-color: rgba(0, 94, 117, 1);
 }
 
+/* S E C T I O N _ 1 */
+
 .section_1 {
 	padding: 120px;
+	border-bottom: dotted;
 }
 
 .section_1 h1, h3, h5, h6 {
@@ -72,8 +77,49 @@ button:hover {
 	text-align: center;
 }
 
+/* S E C T I O N _ 2*/
+
+.section_2 {
+	list-style: none;
+	padding: 50px 0px 50px 10px;
+	border-bottom: dotted;
+}
+
+.section_2 h1, h3, h5, h6 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	color: #edf0f1;
+	text-decoration: none;
+	text-align: center;
+}
+
+.brands {
+	padding: 50px 0px 0px 260px;
+
+}
+.ngobryls {
+	height: 80px;
+  	width: 80px;
+}
+
+.morfem {
+	height: 70px;
+	width: 200px;
+}
+
+.jimijazz {
+	height: 100px;
+}
+.brands li {
+	display: inline-block;
+	text-align: center;
+	padding: 0px 100px 0px 10px;
+}
 
 
+/* */ /* */ /* */ /* */ /* */ /* */ /* */ /* */ /* */ /* */ /* */ /* */ 
+/* */ /* */ /* */ /* */ /* M E D I A | M O B I L E */ /* */ /* */ /* */ 
+/* */ /* */ /* */ /* */ /* */ /* */ /* */ /* */ /* */ /* */ /* */ /* */
 
 
 @media(max-width: 700px){
@@ -87,17 +133,17 @@ button:hover {
 
 	.nav_link li {
 		display: inline-block;
-			padding: 0px 10px;
+		padding: 0px 2px 0px 25px;
 	}
 
 	header {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		padding: 50px;
+		padding: 30px;
 	}
 
-	img {
+	header img {
 		height: 40px;
   		width: 40px;
   		cursor: pointer;
@@ -112,6 +158,8 @@ button:hover {
 		cursor: pointer;
 		transition: all 0.3s ease 0s;
 	}
+
+	/* S E C T I O N */
 
 	.section_1 {
 		padding: 20px;
